@@ -5,10 +5,10 @@ class Controlador(
 ) : Icontrolador {
 
 
-    override fun calculadora(a: Int?, b: Int?, aOperar: String?) {
+    override fun calculadora(a: Double?, b: Double?, aOperar: String?) {
 
         var resultado: String = ""
-        var operar: Int = 0
+        var operar: Double = 0.0
         if (a != null && b != null && aOperar != null)
             when (aOperar) {
                 "Dividir" -> operar = a / b

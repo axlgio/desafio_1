@@ -37,8 +37,8 @@ class Ejercicio3 : AppCompatActivity(), Iview {
 
         boton?.setOnClickListener {
             (fCancular as Controlador).calculadora(
-                a.text.toString().toInt(),
-                b.text.toString().toInt(),
+                a.text.toString().toDouble(),
+                b.text.toString().toDouble(),
                 spinner.selectedItem.toString()
             )
         }

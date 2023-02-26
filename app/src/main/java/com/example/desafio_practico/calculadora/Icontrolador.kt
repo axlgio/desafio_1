@@ -1,5 +1,5 @@
 package com.example.desafio_practico.calculadora
 
 interface Icontrolador {
-    fun calculadora(a: Int?, b: Int?, aOperar: String?)
+    fun calculadora(a: Double?, b: Double?, aOperar: String?)
 }
