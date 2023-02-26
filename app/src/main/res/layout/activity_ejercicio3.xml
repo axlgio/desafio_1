@@ -31,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Valor #1"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:layout_marginRight="25dp"
             />
 
@@ -39,7 +39,7 @@
             android:id="@+id/et_valor2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="number"
+            android:inputType="numberDecimal"
             android:hint="#Valor 2"
             android:layout_marginBottom="35dp"
             />
